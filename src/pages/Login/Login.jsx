@@ -1,6 +1,6 @@
 import './Login.css';
 const Login = () => {
-  return <div>Login</div>;
+  return <div>Login example of collaborating </div>;
 };
 
 export default Login;
