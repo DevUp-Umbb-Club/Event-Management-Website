@@ -85,7 +85,7 @@ Push your branch to your forked repository on GitHub:
 ```bash
 git push origin <branch-name>
 ```
-### ***Step 4: Create a Pull Request***
+#### ***Step 4: Create a Pull Request***
 
 1. Go to **Pull Requests** on GitHub.
 2. Click on **New Pull Request**.
@@ -98,7 +98,7 @@ Make sure the base repository is the original repository and the base branch is 
 Add a clear description of your changes, including what you worked on and why.
 Assign reviewers if needed, then submit the pull request.
 
-### ***Step 8: Address Feedback***
+#### ***Step 5: Address Feedback***
 If there’s feedback on your pull request:
 
 Make the requested changes on your local branch.
