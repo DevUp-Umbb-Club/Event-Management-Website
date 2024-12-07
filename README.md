@@ -32,7 +32,7 @@ Open your terminal and navigate to the folder where you want to save the project
 Clone the repository:
 
 ```bash
-git clone [<repository-url>](https://github.com/DevUp-Umbb-Club/Event-Management-Website)
+git clone https://github.com/DevUp-Umbb-Club/Event-Management-Website
 ```
 Navigate to the project directory:
 
@@ -86,11 +86,14 @@ Push your branch to your forked repository on GitHub:
 git push origin <branch-name>
 ```
 ### ***Step 4: Create a Pull Request***
--Go to Pull request
--Click on New pull Request
--base wil be master and compare will be your feature branch then click on create pull request
--Then give a description if needed and send it
 
+1. Go to **Pull Requests** on GitHub.
+2. Click on **New Pull Request**.
+3. Set the base to `master` and compare it with your feature branch.
+4. Click on **Create Pull Request**.
+5. Add a description if needed.
+6. Submit the pull request.
+   
 Make sure the base repository is the original repository and the base branch is main.
 Add a clear description of your changes, including what you worked on and why.
 Assign reviewers if needed, then submit the pull request.
