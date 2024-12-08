@@ -1,6 +1,7 @@
 import './Navbar.css';
 import Stack from '@mui/material/Stack';
 import Button from '@mui/material/Button';
+import { FiLogOut } from "react-icons/fi";
 const Navbar = () => {
   return <nav>
     <div class="navb">
@@ -15,16 +16,14 @@ const Navbar = () => {
       <div class='items'><a href='./settings'>Settings</a></div>
       <div></div>
       <div></div>
-      
       </Stack>
-      
       </div>
       <div class='button'>
         <Button 
           color="error"
           sx={{ textTransform: 'none' }} 
           variant="contained" 
-          startIcon={<img src='../public/logout.svg' />}>
+          startIcon={<FiLogOut />}>
           Logout
         </Button>
       </div>
