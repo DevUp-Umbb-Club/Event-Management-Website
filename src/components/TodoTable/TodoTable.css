@@ -1,0 +1,125 @@
+.controls {
+    margin-bottom: 20px;
+    display: flex;
+    gap: 10px;
+  }
+
+input[type="text"] {
+    padding: 10px 15px; 
+    border: 2px solid #ccc; 
+    border-radius: 8px; 
+    font-size: 12px;
+   
+    margin-right: 10px; 
+  }
+  
+  input[type="text"]::placeholder {
+    color: #aaa; 
+    font-size: 12px;
+    font-style: italic; 
+  }
+  
+  
+  select {
+    padding: 10px px; 
+    border: 2px solid #ccc; 
+    border-radius: 8px; 
+    font-size: 12px; 
+    
+    margin-right: 10px;
+  }
+  
+  select option {
+    font-size: 15px; 
+  }
+  
+ 
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;}
+
+    .availability-text, .status-text {
+        font-weight: bold;
+        padding: 5px;
+        border-radius: 3px;
+        display: inline-block;
+      }
+      
+      
+      .availability-available {
+        color: green;
+        border: 2px solid green;
+        border-radius: 18px;
+      }
+      
+      .availability-not-available {
+        color: red;
+        border: 2px solid red;
+        border-radius: 18px;
+      }
+      
+     
+     
+      .status-done {
+        color: green;
+        border: 2px solid green;
+        border-radius: 18px;
+      }
+      
+      .status-in-progress {
+        color: orange;
+        border: 2px solid orange;
+        border-radius: 18px;
+      }
+      
+      .status-not-done {
+        color: red;
+        border: 2px solid red;
+        border-radius: 18px;
+      }
+      
+  
+  .removebtn {
+    padding: 5px 10px  ;
+    margin-right: 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .taskbtn {
+    padding: 5px 10px  ;
+    margin-left: 96rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .modifybtn {
+    padding: 5px 10px  ;
+    margin-right: 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .removebtn:hover {
+    background-color: #b90101;
+  }
+  .modifybtn:hover {
+    background-color: #0056b3;
+  }
+  .taskbtn:hover {
+    background-color: #0056b3;
+  }
+  
