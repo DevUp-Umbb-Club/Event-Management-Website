@@ -1,0 +1,19 @@
+span {
+    font-family: Manrope, sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    
+}
+.center {
+    font-family: Manrope;
+    font-weight: 700;
+}
+.title {
+    font-family: Urbanist, sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+}
+.effstat {
+    margin-top: 100px;
+    margin-left: 47%;
+}
