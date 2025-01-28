@@ -1,0 +1,8 @@
+.Members{
+    margin : 10% 3%;
+    box-shadow: 1px 5px 8px -3px rgb(70, 67, 67);
+    border-radius: 10px;
+}
+h2,p{
+    padding :0px 10px;
+}
