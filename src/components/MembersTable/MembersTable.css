@@ -1,0 +1,60 @@
+.remove {
+    color: white !important;
+    cursor: pointer;
+    padding: 0px 7px !important;
+    background-color: #FF3B30 !important;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px rgb(70, 67, 67);
+    text-transform: none !important;
+}
+
+.remove:hover {
+    background-color: rgb(229, 123, 123) !important;
+}
+
+.change{
+    color: white !important;
+    cursor: pointer;
+    background-color: #1976D2 !important;
+    border-radius: 5px;
+    padding : 4px 7px !important;
+    box-shadow: 1px 1px 1px 1px rgb(70, 67, 67);
+    text-transform: none !important;
+}
+.change:hover{
+    background-color: #4ea3f8 !important;
+}
+.tasks{
+    color: #272727de !important;
+    cursor: pointer;
+    background-color: transparent; 
+    border-radius: 5px;
+    padding : 0px 7px !important;
+    border: 1.5px solid #272727de  !important;
+    text-transform: none !important;
+}
+.tasks:hover{
+    background-color: #1d1d1dde !important; 
+    color : white !important;
+
+}
+
+
+.MuiTableCell-root {
+    border-right: none !important; 
+    border-left: none !important;
+  }
+  
+
+  .MuiTableCell-head {
+    border-bottom: 1px solid rgba(224, 224, 224, 1) !important; 
+  }
+  
+  .MuiTableCell-body {
+    border-bottom: 1px solid rgba(224, 224, 224, 1) !important; 
+  }
+  
+  .MuiTableRow-root:last-child .MuiTableCell-body {
+    border-bottom: none !important; 
+  }
+  
