@@ -57,4 +57,12 @@
   .MuiTableRow-root:last-child .MuiTableCell-body {
     border-bottom: none !important; 
   }
+.search{
+    margin:10px 15px 25px 15px;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+
+  }
+
   

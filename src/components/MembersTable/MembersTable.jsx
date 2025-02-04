@@ -8,7 +8,6 @@ import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
 import Button from '@mui/material/Button';
 import Stack from '@mui/material/Stack';
-import TextField from '@mui/material/TextField';
 import './MembersTable.css';
 
 function createData(Firstname, Lastname, Email, Role) {
@@ -49,17 +48,7 @@ export default function MembersTable() {
   return (
     <>
       
-      <Stack spacing={2} sx={{ mb: 2, width: '250px',padding: '10px' }}>
-        <TextField
-          label="Search"
-          value={search}
-          onChange={handleSearchChange}
-          fullWidth
-          variant="outlined"
-          size="small"
-          
-        />
-      </Stack>
+      <input type="text" placeholder="Search" onChange={handleSearchChange} value = {search}  className='search'/>
 
       
       <TableContainer component={Paper}>
