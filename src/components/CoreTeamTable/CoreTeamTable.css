@@ -1,0 +1,27 @@
+* {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+.table-head .table-cell{
+    font-weight: bold;
+}
+.table-cell {
+    border: none;
+}
+.table {
+    width: 1090px;
+    height: fit-content;
+    border: none;
+}
+.table-row {
+    height: 56px;
+    border-bottom: 1px solid #000000;
+}
+.paper {
+    width: 1090px;
+    height: fit-content;
+    border: none;
+}
+.table-pagination p{
+    margin: 0px;
+}
