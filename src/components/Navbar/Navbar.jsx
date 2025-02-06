@@ -1,10 +1,10 @@
-import "./Navbar.css";
-import Stack from "@mui/material/Stack";
-import Button from "@mui/material/Button";
-import { FiLogOut } from "react-icons/fi";
-import { useState } from "react";
+import './Navbar.css';
+import Stack from '@mui/material/Stack';
+import Button from '@mui/material/Button';
+import { FiLogOut } from 'react-icons/fi';
+import { useState } from 'react';
 
-import { FiMenu, FiX } from "react-icons/fi";
+import { FiMenu, FiX } from 'react-icons/fi';
 
 const Navbar = () => {
   const [isActive, setIsActive] = useState(false);
@@ -17,12 +17,12 @@ const Navbar = () => {
 
   return (
     <nav>
-      <div className={`navb ${isActive ? "open" : ""}`}>
+      <div className={`navb ${isActive ? 'open' : ''}`}>
         <div className="devuplogo">
-          <img className="devulogo" src="../public/devup-logo.svg" />
+          <img className="devulogo" src="/devup-logo.svg" />
         </div>
 
-        <div className={`itemstack ${isActive ? "open" : ""}`}>
+        <div className={`itemstack ${isActive ? 'open' : ''}`}>
           <Stack spacing={10} direction="row">
             <div className="items">
               <a href="./dashboard">Dashboard</a>
@@ -43,7 +43,7 @@ const Navbar = () => {
         <div className="button">
           <Button
             color="error"
-            sx={{ textTransform: "none" }}
+            sx={{ textTransform: 'none' }}
             variant="contained"
             startIcon={<FiLogOut />}
           >
@@ -57,8 +57,8 @@ const Navbar = () => {
           {isActive ? <FiX size={24} /> : <FiMenu size={24} />}
         </div>
 
-        <div className={`sidebar ${isActive ? "open" : ""}`}>
-          <ul className={`menu ${isActive ? "open" : ""}`}>
+        <div className={`sidebar ${isActive ? 'open' : ''}`}>
+          <ul className={`menu ${isActive ? 'open' : ''}`}>
             <li className="items">
               <a href="./dashboard">Dashboard</a>
             </li>
@@ -75,7 +75,7 @@ const Navbar = () => {
             <li className="sidebutton">
               <Button
                 color="error"
-                sx={{ textTransform: "none" }}
+                sx={{ textTransform: 'none' }}
                 variant="contained"
                 startIcon={<FiLogOut />}
               >
